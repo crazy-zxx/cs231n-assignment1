@@ -1,7 +1,8 @@
 # at first, your virtual environment need install python 3.8
-# conda install -c conda-forge notebook  (I use this)  or  pip install notebook
-# pip install -r requirements.txt    (because some package conda don't have)
-# 下边的包是删减后的，原来网站提供的包中有些和jupyter依赖冲突
+# then, conda install -c conda-forge notebook  (I use this)  or  pip install notebook
+# last, pip install -r requirements.txt    (because some package conda don't have)
+# The packages below are trimmed down,
+# some packages provided by the original site conflict with jupyter dependencies
 chardet
 cycler
 future
